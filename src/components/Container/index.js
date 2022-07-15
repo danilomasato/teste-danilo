@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Header } from "./";
+import { Header } from "../Header";
 import "./Container.css";
 
 const Container = props => {
