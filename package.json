@@ -27,7 +27,7 @@
     "start": "env-cmd -f .env.development react-scripts start",
     "db": "start json-server --watch db.json --port 5000",
     "homolog_build": "env-cmd -f .env.development react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -48,6 +48,7 @@
   "devDependencies": {
     "env-cmd": "^10.1.0",
     "husky": "^4.2.3",
+    "jest": "^26.6.0",
     "lint-staged": "^10.0.7",
     "prettier": "1.19.1"
   },
